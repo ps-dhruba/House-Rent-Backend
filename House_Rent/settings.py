@@ -30,6 +30,7 @@ SECRET_KEY = 'django-insecure-*#92rzw862wf57&&a3dv)ppk3%7l4d7yx&ld3=m2oy__(om)+=
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://house-rent-6voz.onrender.com/', 'https://*.127.0.0.1']
 
 
 # Application definition
